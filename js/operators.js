@@ -33,7 +33,14 @@ console.log(x <= 10);
 console.log(x === 10);
 console.log(x !== 10);
 
+// Strict Equality
+console.log(1 === 1);
+
+// Loose Equality
+console.log(1 == 1);
+
 // Logical Operators
+
 
 // Bitwise Operators
 
