@@ -80,14 +80,30 @@
 let selectedColors = ['Blue','Green','Red','Yellow','Pink'];
 selectedColors[2] = "Grey";
 
-console.log(selectedColors.length);
+// console.log(selectedColors.length);
 
 //===================
 //      Functions
 //===================
 
-function greet(name){
-    console.log('Hello ' +  name);
+//Performing a task
+
+function greet(firstName, lastName){
+    console.log('Hello ' +  firstName + ' ' + lastName);
 }
 
-greet ('Faisal');
+// greet ('Faisal', 'Ahammed');
+
+//Calculating a value
+
+function square(number){
+    return number * number;
+}
+
+// let number = square(2);
+// console.log(number);
+
+console.log(square(2));
+
+
+
