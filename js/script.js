@@ -2,8 +2,8 @@
 // //      Variable
 // //===================
 
-// let name = 'Faisal Ahammed';
-// console.log(name);
+let name = "Faisal Ahammed";
+console.log(name);
 
 // //Cannot be a reserved keyword
 // //Should be meaningful
@@ -35,7 +35,7 @@
 
 // let myName = 'Setu'; //String Literal
 // let age = 30; //Number Literal
-// let isApproved = true; //Boolean Literal 
+// let isApproved = true; //Boolean Literal
 // let myFirstName = undefined; //Undefined Literal
 // let selectedColor = null; //NUll Literal
 
@@ -51,7 +51,6 @@
 // //===================
 
 // // Languages = (Static = statically-typed ) & (Dynamic = Dynamically-typed )
-
 
 // //===================
 // //  Objects
@@ -70,14 +69,13 @@
 // //Bracket Notation
 // person ['name'] = 'Mary';
 
-
 // console.log(person);
 
 //===================
 //      Arrays
 //===================
 
-let selectedColors = ['Blue','Green','Red','Yellow','Pink'];
+let selectedColors = ["Blue", "Green", "Red", "Yellow", "Pink"];
 selectedColors[2] = "Grey";
 
 // console.log(selectedColors.length);
@@ -88,22 +86,22 @@ selectedColors[2] = "Grey";
 
 //Performing a task
 
-function greet(firstName, lastName){
-    console.log('Hello ' +  firstName + ' ' + lastName);
+function greet(firstName, lastName) {
+  console.log('Hello ' +  firstName + ' ' + lastName);
+//   alert("Hello " + firstName + " " + lastName);
 }
 
-// greet ('Faisal', 'Ahammed');
+// greet("Faisal", "Ahammed");
+// greet('Rahim','ahammmed');
 
 //Calculating a value
 
-function square(number){
-    return number * number;
+function square(number) {
+  return number * number;
 }
 
 // let number = square(2);
 // console.log(number);
 
-console.log(square(2));
-
-
-
+// alert(square(4));
+console.log(square(4));
