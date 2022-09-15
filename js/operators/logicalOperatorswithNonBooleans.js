@@ -17,4 +17,12 @@ console.log("Application Refused", myEligibleForLoan);
 //NOT (!)
 
 let applicationRefused = !eligibleForLoan;
-console.log(eligibleForLoan);
+console.log(eligibleForLoan) + '\n\n';
+
+
+
+let userColor = undefined;
+let defaultColor = "blue";
+let currentColor = userColor || defaultColor;
+
+console.log(currentColor);
