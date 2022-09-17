@@ -5,6 +5,7 @@
 // i++;
 // }
 
+// Avoid continue because it an ugly way of code.
 
 let i = 0;
 while (i <= 10){
