@@ -1,8 +1,8 @@
 # JavaScript-Basics-for-Beginners
 
-============================
-  Basic JavaScript-(ES6)
-============================
+
+  @@-- Basic JavaScript-(ES6) --@@
+
 
 01. Basics
 02. Operators
@@ -12,9 +12,9 @@
 06. Arrays
 07. Functions
 
-============================
-     Javascript OOP
-============================
+
+   @@-- Javascript OOP --@@
+
 
 01. Objects
 02. Prototypes
