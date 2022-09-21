@@ -13,6 +13,6 @@ function max(a, b) {
 //   if (a > b) return a;
 //   return b;
 
-//contional operator
+//conditional operator
   return (a > b) ? a : b;
 }
