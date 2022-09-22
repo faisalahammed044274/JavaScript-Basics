@@ -9,8 +9,9 @@ const movie = {
 showProperties(movie);
 
 function showProperties(obj){
-    for (let key in obj)
-    // console.log(key);
+    for (let key in obj){
+            // console.log(key);
     if (typeof obj [key] === 'string') //string, number, boolean
     console.log(key, obj[key]);
+    }
 }
