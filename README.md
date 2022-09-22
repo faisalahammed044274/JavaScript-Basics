@@ -21,5 +21,3 @@
 03. Prototypical Inheritance
 04. ES6 Classes
 05. ES6 Modules
-
-Thanks MOSH for the awesome course.
